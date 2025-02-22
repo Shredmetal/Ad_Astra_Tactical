@@ -52,7 +52,7 @@ Self-explanatory. These will always hit some part of the target, but are very vu
 Throughout history, weapons have always beaten armour, and it's the same here. Armour is there entirely as an ablative layer, which is the only reason why lasers don't immediately destroy a component.
 
 **Heat Management**  
-Everything a ship does generates heat. However, the ability to store heat is a warship-specific capability for stealth. Without a heat signature and advanced low-observable technology, it is impossible to detect a warship in the vastness of space. Heat banks have a limit though, and they will need to be vented eventually. Failure to do so can cause complete destruction of a ship.
+Everything a ship does generates heat. However, the ability to store heat is a warship-specific capability for stealth. Without a heat signature and advanced low-observable technology, it is impossible to detect a warship in the vastness of space. Heat banks have a limit though, and they will need to be radiates eventually. Failure to do so can cause complete destruction of a ship.
 
 With that, the effects of all your decisions and why good or bad things happen should make logical sense.
 
@@ -93,7 +93,7 @@ Each game turn consists of five phases, executed in order:
 - Add heat from previous turn's actions
 - Each ship must choose:
   - Store heat (remain stealthy, invisible to thermals, standard hit receiving chance)
-  - Vent heat (visible to thermals, if also visible to visual, attack rolls get a +1 bonus against you) - vents 10 heat per turn
+  - Radiate heat (visible to thermals, if also visible to visual, attack rolls get a +1 bonus against you) - radiates 10 heat per turn
 
 **Critical Heat Threshold**: 30
 - Going over causes 1/3 damage to the heat management system
@@ -102,8 +102,8 @@ Each game turn consists of five phases, executed in order:
 - Remain in this state for 3 turns and your heat management system explodes, exceeding 30 just causes damage but allows continued heat accumulation
 
 **Destroyed Heat Management System Effects**:
-- No storage, must continuously vent
-- Death caused if heat generated cannot be vented or stored
+- No storage, must continuously radiate
+- Death caused if heat generated cannot be radiated or stored
 - Example: Firing particle cannon (8 heat) and moving 25-27G (5 heat) with destroyed heat management in one turn (13 heat total) causes explosion
 
 #### 2. Movement Phase
@@ -147,12 +147,12 @@ Each game turn consists of five phases, executed in order:
 #### 3. Detection Phase
 
 Check each ship's visibility:
-- Venting heat = Automatically detected
+- Radiating heat = Automatically detected
 - Visual range ~30 miles (30" on table)
 - Heat signatures reveal position
 - Detected ships can be targeted but only by the ship that can detect it
 - Targeting information cannot be shared unless using squadron tactics
-- Ships venting and in visual range give attackers +1 roll bonus to hit
+- Ships radiating and in visual range give attackers +1 roll bonus to hit
 
 #### 4. Combat Phase
 
@@ -248,7 +248,7 @@ If destroyed:
 **Heat Management**:
 If destroyed:
 - Cannot store heat at all
-- Must continuously vent
+- Must continuously radiate
 
 If heat > 30:
 - Add one crit to that ship's heat management system
@@ -292,7 +292,7 @@ If destroyed:
 
 **3. Screening**
 - Requirement: Two ships forward of ship or ships being screened, max 9" apart
-- Benefit: Forward ships can mask heat signatures of rear ships (i.e. rear ships can vent without being detected thermally) and share targeting data with rear ships
+- Benefit: Forward ships can mask heat signatures of rear ships (i.e. rear ships can radiate without being detected thermally) and share targeting data with rear ships
 - Drawback: Forward ships can be shot at by enemies from beyond even long range of the rear ships
 
 **4. Dispersed**

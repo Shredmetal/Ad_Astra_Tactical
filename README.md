@@ -151,7 +151,7 @@ Check each ship's visibility:
 
 #### 4. Combat Phase
 
-High initiative shoots AND RESOLVES DAMAGE IMMEDIATELY first.
+High initiative shoots AND RESOLVES DAMAGE IMMEDIATELY first. If a ship takes damage, it will have the effects of that damage applied in the same turn.
 
 Each ship can use one weapon system per turn:
 
@@ -166,6 +166,7 @@ Each ship can use one weapon system per turn:
   - Negates the hit entirely
 
 **Particle Cannon**:
+- Costs 8 heat
 - Range requirements:
   - Long Range: roll at least 39 using 2d20, then roll d6 for hit location
   - Mid Range: roll at least 34 using 2d20, then roll d6 for hit location

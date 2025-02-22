@@ -306,7 +306,7 @@ Hegemony Reality:
 
 Current Situation:
 - Both sides technologically equal
-- Same mixed-race population
+- Race is but a memory
 - Different responses to horror
 - Success created opposition
 - No military advantage

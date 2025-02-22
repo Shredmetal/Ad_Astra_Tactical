@@ -316,7 +316,7 @@ Current Situation:
 
 PROCYON PRIME INCIDENT
 
-2525: INITIAL COLONIZATION
+2525: INITIAL COLONISATION
 
 Early Phase:
 - Federation establishes new colony

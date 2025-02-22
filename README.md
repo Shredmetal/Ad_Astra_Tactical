@@ -186,6 +186,7 @@ Each ship can use one weapon system per turn:
 - Each ship starts with 4 missiles
 - Can only target ships with destroyed PD
 - 66.6% chance to hit (roll 3+ on d6)
+- Max range of 20" because your missile needs to constantly burn reaction mass to manoeuvre in space
 - Destroys random component on hit (roll d6 for component)
 - Unable to use if missile bays destroyed
 

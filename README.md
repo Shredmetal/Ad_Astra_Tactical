@@ -132,8 +132,6 @@ Each game turn consists of five phases, executed in order:
 
 **G-Force Movement Rules**:
 - Base movement: 1" per G
-- Maximum normal: 24G (24")
-- Maximum damaged: 9G (9")
 
 **Movement Restrictions**:
 - Must declare G-force before moving
@@ -142,6 +140,7 @@ Each game turn consists of five phases, executed in order:
 - Can make one course adjustment per move
 
 #### 3. Detection Phase
+
 Check each ship's visibility:
 - Venting heat = Automatically detected
 - Visual range ~30 miles (30" on table)
@@ -151,6 +150,7 @@ Check each ship's visibility:
 - Ships venting and in visual range give attackers +1 roll bonus to hit
 
 #### 4. Combat Phase
+
 High initiative shoots AND RESOLVES DAMAGE IMMEDIATELY first.
 
 Each ship can use one weapon system per turn:
@@ -187,6 +187,7 @@ Each ship can use one weapon system per turn:
 - Unable to use if missile bays destroyed
 
 #### 5. System Status Phase
+
 - Check component damage on all ships
 - Resolve system effects
 - Update ship status cards

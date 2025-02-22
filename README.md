@@ -71,6 +71,9 @@ With that, the effects of all your decisions and why good or bad things happen s
   - All systems functional
   - 4 missiles
   - Full movement capability
+- Each player deploys 4 frigates in their deployment zone
+- Deployment zones are opposite table edges, up to 6" in from the edge
+- Minimum starting distance between opposing forces: 24"
 
 ### Ship Systems
 Each ship tracks six critical components:
@@ -113,22 +116,24 @@ Each game turn consists of five phases, executed in order:
 - Declare G-forces before moving
 
 **Heat Generation Table**:
-| G-Force  | Heat Generated |
-|----------|---------------|
-| 1-4G 	| 1 heat   	|
-| 5-9G 	| 2 heat   	|
-| 10-18G   | 3 heat   	|
-| 19-24G   | 4 heat   	|
-| 25-27G   | 5 heat   	|
+
+| G-Force | Heat Generated |
+|---------|----------------|
+| 1-4G 	  | 1 heat   	     |
+| 5-9G 	  | 2 heat   	     |
+| 10-18G  | 3 heat   	     |
+| 19-24G  | 4 heat   	     |
+| 25-27G  | 5 heat   	     |
 
 **G-Force Hit Receiving Modifications**:
-| G-Force  | Roll Modification |
-|----------|------------------|
-| 1-4G 	| + 2         	|
-| 5-9G 	| + 1         	|
-| 10-18G   | + 0         	|
-| 19-24G   | - 1         	|
-| 25-27G   | - 2         	|
+
+| G-Force | Roll Modification |
+|---------|-------------------|
+| 1-4G 	  | + 2         	     |
+| 5-9G 	  | + 1         	     |
+| 10-18G  | + 0         	     |
+| 19-24G  | - 1         	     |
+| 25-27G  | - 2         	     |
 
 **G-Force Movement Rules**:
 - Base movement: 1" per G
@@ -151,7 +156,10 @@ Check each ship's visibility:
 
 #### 4. Combat Phase
 
-High initiative shoots AND RESOLVES DAMAGE IMMEDIATELY first. If a ship takes damage, it will have the effects of that damage applied in the same turn.
+1. High initiative player selects ship to fire
+2. Resolve weapon effects and damage immediately
+3. Low initiative player selects ship to fire
+4. Continue alternating until all ships have fired or passed
 
 Each ship can use one weapon system per turn:
 
@@ -191,6 +199,16 @@ Each ship can use one weapon system per turn:
 
 #### Component Damage Effects
 
+#### Hit Location Table
+| D6 Roll | Component Hit   |
+|---------|-----------------|
+| 1       | Engine          |
+| 2       | Magnetic Field  |
+| 3       | Fire Control    |
+| 4       | Heat Management |
+| 5       | Missile Bays    |
+| 6       | Point Defense   |
+
 **Engine**:
 - If destroyed: Ship is lost
 - No partial damage
@@ -205,12 +223,13 @@ Each ship can use one weapon system per turn:
   - Failure: Ship helpless
 
 **GLOC Table**:
-| G-Force  | Required Roll |
-|----------|--------------|
-| 10-15G   | 15+ on d20   |
-| 16-20G   | 17+ on d20   |
-| 21-24G   | 19+ on d20   |
-| 25-27G   | Natural 20   |
+
+| G-Force | Required Roll |
+|---------|---------------|
+| 10-15G  | 15+ on d20    |
+| 16-20G  | 17+ on d20    |
+| 21-24G  | 19+ on d20    |
+| 25-27G  | Natural 20    |
 
 *GLOC Effects*:
 - No actions for turn (no movement, cannot react)

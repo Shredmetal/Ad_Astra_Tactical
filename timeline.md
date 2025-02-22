@@ -261,7 +261,7 @@ Military Evolution:
 - Limited conflict capability
 - Equal military potential
 
-Cultural Crystallization:
+Cultural Crystallisation:
 Federation:
 - Success justifies means
 - Real democracy works

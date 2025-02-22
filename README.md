@@ -260,7 +260,7 @@ If destroyed:
 **1. Defensive Sphere**
 - Requirement: All ships within 9" of centre
 - Benefit: Share PD Coverage, if ship has lost PD, being in sphere with at least one ship having PD extends missile invulnerability to other ship
-- Drawback: PD can be overwhelmed. Each PD system can only destroy 2 missiles. If the squadron has only 2 ships and 1 PD system between them, if 4 enemy ships each launch a missile, the defending squadron is guaranteed to receive two component hits.
+- Drawback: PD can be overwhelmed. Each PD system can only destroy 2 missiles. If the squadron has only 2 ships and 1 PD system between them, if 4 enemy ships each launch a missile, the attacker performs a hit chance roll for missiles 3 and 4. If number of missiles fired at the formation > 2x the number of active PD systems, then perform standard hit chance rolls for every missile fired after the missiles that will be destroyed, in the same turn.
 
 **2. Attack Line**
 - Requirement: Ships in linear formation 6" apart

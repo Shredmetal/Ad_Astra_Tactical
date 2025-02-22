@@ -143,7 +143,7 @@ Second Generation (2095-2110):
 Third Generation (2110-2120):
 - Only knows new system
 - Fully integrated population
-- Cultural homogenization complete
+- Cultural homogenisation complete
 - Mixed-race majority
 - Old divisions gone
 - Because resisters dead

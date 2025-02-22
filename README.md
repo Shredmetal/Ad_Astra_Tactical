@@ -89,7 +89,7 @@ Each game turn consists of five phases, executed in order:
 **Heat Management System**
 - Add heat from previous turn's actions
 - Each ship must choose:
-  - Store heat (remain stealthy, standard hit receiving chance)
+  - Store heat (remain stealthy, invisible to thermals, standard hit receiving chance)
   - Vent heat (visible to thermals, if also visible to visual, attack rolls get a +1 bonus against you) - vents 10 heat per turn
 
 **Critical Heat Threshold**: 30

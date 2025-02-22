@@ -96,7 +96,7 @@ Each game turn consists of five phases, executed in order:
 - Going over causes 1/3 damage to the heat management system
 - 3 crits to destruction
 - Crits can only be caused by overheating
-- Remain in this state for 3 turns and your heat management system explodes
+- Remain in this state for 3 turns and your heat management system explodes, but technically, the heat cap is unlimited while you still have the system
 
 **Destroyed Heat Management System Effects**:
 - No storage, must continuously vent
@@ -151,7 +151,7 @@ Check each ship's visibility:
 - Ships venting and in visual range give attackers +1 roll bonus to hit
 
 #### 4. Combat Phase
-High initiative shoots first.
+High initiative shoots AND RESOLVES DAMAGE IMMEDIATELY first.
 
 Each ship can use one weapon system per turn:
 
@@ -232,6 +232,9 @@ If destroyed:
 - Cannot store heat at all
 - Must continuously vent
 
+If heat > 30:
+- Add one crit to that ship's heat management system
+
 **Missile Bays**:
 If destroyed:
 - Lose all remaining missiles
@@ -281,5 +284,5 @@ If destroyed:
 
 ### Victory Conditions
 - Destroy all enemy ships
-- Potential objective gameplay - destroy some cargo carrier or something
+- [Further development possible here]
 

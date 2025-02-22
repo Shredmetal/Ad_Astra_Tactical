@@ -166,12 +166,14 @@ Each ship can use one weapon system per turn:
 **Laser System**:
 - Costs 4 heat
 - Always guaranteed hit
-- Roll d6 for hit location
+- Roll d6 for hit location for first shot
+- Subsequent laser shots from the same attacking ship or another attacking ship require a 5+ roll from a d6 and it will take out the same component, if this second roll fails, the attacker rolls a d6 again to determine where the laser hit
 - Requires 2 consecutive hits on same location for damage
 - Defender can choose to evade:
   - Declare before hit location roll but AFTER attacker declares laser firing
   - Loses their next shooting action
   - Negates the hit entirely
+  - Evasion is a 1-9G burn in any direction, with the attendant low-G movement penalties and movement heat buildup
 
 **Particle Cannon**:
 - Costs 8 heat
@@ -239,7 +241,7 @@ Each ship can use one weapon system per turn:
 
 **Fire Control**:
 If destroyed:
-- Lasers must now roll 5+ on a d6 to hit
+- Lasers must now roll 2+ on a d6 to hit
 - -2 to particle cannon rolls
 - -2 to missile hit rolls
 

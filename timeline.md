@@ -345,7 +345,7 @@ Month 3:
 - Minority group forms
 - "Learn from Hegemony" movement
 - Calls for preventative controls
-- Suggests authoritarian measures
+- Suggests authoritarian measures to suppress the records
 - Creates social tension
 
 Month 4:

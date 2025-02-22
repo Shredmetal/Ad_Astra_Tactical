@@ -96,7 +96,7 @@ Each game turn consists of five phases, executed in order:
 - Going over causes 1/3 damage to the heat management system
 - 3 crits to destruction
 - Crits can only be caused by overheating
-- Remain in this state for 3 turns and your heat management system explodes, but technically, the heat cap is unlimited while you still have the system
+- Remain in this state for 3 turns and your heat management system explodes, exceeding 30 just causes damage but allows continued heat accumulation
 
 **Destroyed Heat Management System Effects**:
 - No storage, must continuously vent
@@ -166,12 +166,6 @@ Each ship can use one weapon system per turn:
   - Negates the hit entirely
 
 **Particle Cannon**:
-- Costs 8 heat
-- Range requirements:
-  - Long Range: roll at least 39 using 2d20, then roll d6 for hit location
-  - Mid Range: roll at least
-
-**Particle Cannon** (continued):
 - Range requirements:
   - Long Range: roll at least 39 using 2d20, then roll d6 for hit location
   - Mid Range: roll at least 34 using 2d20, then roll d6 for hit location

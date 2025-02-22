@@ -285,12 +285,12 @@ If destroyed:
 **2. Attack Line**
 - Requirement: Ships in linear formation 6" apart
 - Benefit: Combined targeting data (+1 per ship in line to all hit rolls)
-- Drawback: Enemies receive +1 to all hit rolls when flanking the line
+- Drawback: Enemies receive +1 to all hit rolls when flanking (any attack from >45° off the line's axis) the line
 
 **3. Screening**
 - Requirement: Two ships forward of ship or ships being screened, max 9" apart
 - Benefit: Forward ships can mask heat signatures of rear ships (i.e. rear ships can vent without being detected thermally) and share targeting data with rear ships
-- Drawback: Forward ships can be shot at by enemies outside of even long range of the rear ships
+- Drawback: Forward ships can be shot at by enemies from beyond even long range of the rear ships
 
 **4. Dispersed**
 - Requirement: No ships within 9" of each other

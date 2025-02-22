@@ -296,7 +296,7 @@ Federation Reality:
 
 Hegemony Reality:
 - Authoritarian state
-- Cultural preservation
+- Cultural diversity preservation
 - Through strict control
 - Cannot restore past
 - Prevents new purge

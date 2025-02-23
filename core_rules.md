@@ -109,7 +109,8 @@ Each ship can use one weapon system per turn:
 - Costs 4 heat
 - Always guaranteed hit
 - Roll d6 for hit location for first shot
-- Subsequent laser shots from the same attacking ship or another attacking ship require a 5+ roll from a d6 and it will take out the same component, if this second roll fails, the attacker rolls a d6 again to determine where the laser hit
+- Mark component on ship card as currently being burned by a laser
+- Subsequent laser shots from the same attacking ship or another attacking ship require a 5+ roll from a d6 and it will take out the same component, if this second roll fails, remove the mark on card indicating it is being burned the attacker rolls a d6 again to determine where the laser hit, and mark that component as being burned
 - Requires 2 consecutive hits on same location for damage
 - Defender can choose to evade:
   - Declare before hit location roll but AFTER attacker declares laser firing

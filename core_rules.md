@@ -68,7 +68,7 @@ Each game turn consists of five phases, executed in order:
 | 19-24G  | 4 heat   	     |
 | 25-27G  | 5 heat   	     |
 
-**G-Force Hit Receiving Modifications**:
+**G-Force Hit Receiving Modifications (add these to what the attacker actually rolled)**:
 
 | G-Force | Roll Modification |
 |---------|-------------------|
@@ -85,7 +85,6 @@ Each game turn consists of five phases, executed in order:
 - Must declare G-force before moving
 - Cannot exceed maximum G based on system status
 - All movement must be in straight lines
-- Can make one course adjustment per move
 
 #### 3. Detection Phase
 

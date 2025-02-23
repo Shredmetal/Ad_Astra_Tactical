@@ -55,6 +55,8 @@ Each game turn consists of five phases, executed in order:
 - Frigates: Up to 27G with functioning magnetic system (other classes to be added in the future)
 - 2D Movement - 3D is a bit hard on a tabletop
 - Declare G-forces before moving
+- You can point and burn in any direction and move in any direction in a straight line
+- You can point in any direction after moving
 
 **Heat Generation Table**:
 

@@ -1,4 +1,4 @@
-# Ad Astra Tactical
+# Ad Astra Tactical (placeholder name)
 
 ## Core Ruleset
 

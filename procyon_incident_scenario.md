@@ -57,3 +57,6 @@ Month 6:
 Deployment:
 - Each side starts with 4 Frigates
 - Deployed to opposite sides of the table
+
+Victory Conditions:
+- Destruction of opposing ships

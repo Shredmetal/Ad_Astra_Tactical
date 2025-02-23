@@ -57,6 +57,6 @@ Self-explanatory. These will always hit some part of the target, but are very vu
 Throughout history, weapons have always beaten armour, and it's the same here. Armour is there entirely as an ablative layer, which is the only reason why lasers don't immediately destroy a component.
 
 **Heat Management**  
-Everything a ship does generates heat. However, the ability to store heat is a warship-specific capability for stealth. Without a heat signature and advanced low-observable technology, it is impossible to detect a warship in the vastness of space. Heat banks have a limit though, and they will need to be radiates eventually. Failure to do so can cause complete destruction of a ship.
+Everything a ship does generates heat. However, the ability to store heat is a warship-specific capability for stealth. Without a heat signature and advanced low-observable technology, it is impossible to detect a warship in the vastness of space. Heat banks have a limit though, and they will need to be radiated eventually. Failure to do so can cause complete destruction of a ship.
 
 With that, the effects of all your decisions and why good or bad things happen should make logical sense.

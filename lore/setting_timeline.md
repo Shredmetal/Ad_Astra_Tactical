@@ -313,3 +313,5 @@ Current Situation:
 - Limited warfare possible
 - Ideological conflict
 - No resolution available
+- Both sides are genuine utopias, with abundance in resources and energy
+- Remember - the Federation is entirely homogenous, and the Hegemony strictly controls cultural expression to ensure that diversity is preserved

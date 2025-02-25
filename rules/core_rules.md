@@ -35,6 +35,8 @@ Each game turn consists of five phases, executed in order:
 
 #### 1. Heat Management Phase
 
+Player each roll a D20 to determine which player is high initiative for the duration of the turn.
+
 **Heat Management System**
 - Add heat from previous turn's actions
 - Each ship must choose and declare:
@@ -53,7 +55,6 @@ Each game turn consists of five phases, executed in order:
 - Example: Firing particle cannon (8 heat) and moving 25-27G (5 heat) with destroyed heat management in one turn (13 heat total) causes explosion
 
 #### 2. Movement Phase
-- Ships move in initiative order, roll for initiative each turn
 - Player with high initiative moves one ship first, then the player with low initiative moves
 - Repeat until all ships have moved
 
@@ -140,7 +141,7 @@ Each ship can use one weapon system per turn:
 - Max range of 20" because your missile needs to constantly burn reaction mass to manoeuvre in space
 - Scores a crit on hit (roll d6 for component)
 - Unable to use if missile bays destroyed
-- Can fire all 2 missiles at once, but remember, ships with active PD are completely invulnerable to missiles
+- Can fire 2 missiles at once, but remember, ships with active PD are completely invulnerable to missiles
 
 #### 5. System Status Phase
 

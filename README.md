@@ -6,9 +6,9 @@
 This is a tabletop space combat game where physics, heat management, and component damage determine survival.
 
 Quick links:
-- [Core Rules](core_rules.md)
-- [Setting Timeline](setting_timeline.md)
-- [Procyon Incident Scenario Setup](procyon_incident_scenario.md)
+- [Core Rules](rules/core_rules.md)
+- [Setting Timeline](lore/setting_timeline.md)
+- [Procyon Incident Scenario Setup](scenarios/procyon_incident_scenario.md)
 
 ### Tech Base
 This started as a thought experiment about what space combat would look like. In short - pretty different from atmospheric vehicular actions.

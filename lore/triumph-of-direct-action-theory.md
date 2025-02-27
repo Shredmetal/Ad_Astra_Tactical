@@ -1,7 +1,7 @@
 THE TRIUMPH OF DIRECT ACTION THEORY
 
 CLASSIFICATION: CITATION REQUIRED
-ACADEMIC CITATION FORMAT: Dr. Chen, P. (Capt.) et al., Terran Federation Naval Academy (Earth), Naval Academy Press, 2557, "The Triumph of Direct Action Theory"
+ACADEMIC CITATION FORMAT: Dr. Chen, P. (Capt.) et al., Terran Federation Naval Academy (Earth), Faculty of Tactics, Naval Academy Press, 2557, "The Triumph of Direct Action Theory"
 
 Abstract
 

@@ -132,6 +132,8 @@ and densities. After-action analysis focuses more on validating theoretical mode
 This technical focus creates a paradoxical advantage in combat scenarios. Pirates operating from more traditional military mindsets find themselves facing opponents who understand the underlying physics of space combat at a fundamental level. While a pirate might 
 have practical experience in ship-to-ship engagement, they face naval officers who can predict particle dispersion patterns to a degree of accuracy that makes evasion nearly impossible.
 
+The ability to operate in these space battlefields is the result of hard-won expertise, succinctly stated in this [Naval Academy Press Paper](triumph-of-direct-action-theory.md)
+
 ### The Knowledge Arms Race
 
 The technical specialisation of naval crews has created a knowledge arms race between the Federation and Hegemony. While the two utopias collaborate on basic research, each has developed proprietary approaches to system optimisation and operation. Federation 

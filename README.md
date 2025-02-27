@@ -1,4 +1,4 @@
-# Ad Astra Tactical (placeholder name)
+# Astra et Tenebrae
 
 ## Core Ruleset
 

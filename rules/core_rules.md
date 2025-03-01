@@ -4,6 +4,7 @@
 4. Movement - restricted to 90 degrees left or right of last round movement 
 5. Alternatively, move the target number down
 6. Heat cap for destroyed heat management - 20
+7. Hull kill - 3 hits on dead components
 
 Results from first playtest - balance are 70%
 

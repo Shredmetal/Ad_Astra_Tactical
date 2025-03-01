@@ -66,10 +66,10 @@ Player each roll a D20 to determine which player is high initiative for the dura
 - Repeat until all ships have moved
 
 **Movement Capabilities**:
-- Frigates: Up to 27G with functioning magnetic system (other classes to be added in the future)
+- Frigates: Up to 29G with functioning magnetic system (other classes to be added in the future)
 - 2D Movement - 3D is a bit hard on a tabletop
 - Declare G-forces before moving
-- You can point and burn in any direction and move in any direction in a straight line
+- You can point and burn up to a maximum of 90 degrees left and right of the last move direction
 - You can point in any direction after moving
 
 **Heat Generation Table**:
@@ -125,7 +125,7 @@ Each ship can use one weapon system per turn:
 - Roll d6 for hit location for first shot
 - Mark component on ship card as currently being burned by a laser
 - Subsequent laser shots from the same attacking ship or another attacking ship require a 7+ roll from a 1d10 and it will one crit on the same component, if this second roll fails, remove the mark on card indicating it is being burned, and the attacker will roll a d6 again to determine where the laser hit, and mark that component as being burned
-- Requires 2 consecutive hits on same location to score a crit
+- Requires 2 consecutive hits on same location to kill a component
 - Defender can choose to evade:
   - Declare before hit location roll but AFTER attacker declares laser firing
   - Loses their next shooting action
@@ -138,14 +138,14 @@ Each ship can use one weapon system per turn:
   - Long Range: roll at least 39 using 2d20, then roll d6 for hit location
   - Mid Range: roll at least 34 using 2d20, then roll d6 for hit location
   - Close Range: Guaranteed hit, roll d6 for hit location
-- Hit scores a crit on that component, destroying either armour or the component itself
+- Hit kills that component
 - No defence possible
 
 **Missile System**:
 - Each ship starts with 4 missiles
 - Can only target ships with destroyed PD
 - 66.6% chance to hit (roll 3+ on d6)
-- Max range of 20" because your missile needs to constantly burn reaction mass to manoeuvre in space
+- Max range of 30" because your missile needs to constantly burn reaction mass to manoeuvre in space
 - Scores a crit on hit (roll d6 for component)
 - Unable to use if missile bays destroyed
 - Can fire 2 missiles at once, but remember, ships with active PD are completely invulnerable to missiles

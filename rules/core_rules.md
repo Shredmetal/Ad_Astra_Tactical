@@ -2,7 +2,7 @@
 2. Increase line bonus to +3 per ship
 3. Increase dispersed opposite to +6
 4. Movement - restricted to 90 degrees left or right of last round movement 
-5. Alternatively, move the target number down
+5. Alternatively, move the target number down switch D10 - maybe
 6. Heat cap for destroyed heat management - 20
 7. Hull kill - 3 hits on dead components
 

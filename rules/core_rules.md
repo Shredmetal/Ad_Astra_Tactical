@@ -36,10 +36,6 @@ Each ship tracks six critical components:
 - Missile Bays (Damage = Lose missiles)
 - Point Defense (Damage = Missile vulnerable)
 
-Each component is protected by one point of armour. 
-
-To destroy armour or a component, an attacker must score a crit on it.
-
 ### Turn Sequence
 Each game turn consists of five phases, executed in order:
 
@@ -60,9 +56,10 @@ Player each roll a D20 to determine which player is high initiative for the dura
 - Remain in this state for 3 turns and your heat management system explodes, exceeding 30 just causes damage but allows continued heat accumulation
 
 **Destroyed Heat Management System Effects**:
-- No storage, must continuously radiate
+- Must continuously radiate
 - Death caused if heat generated cannot be radiated or stored
-- Example: Firing particle cannon (8 heat) and moving 25-27G (5 heat) with destroyed heat management in one turn (13 heat total) causes explosion
+- Maximum storage with destroyed system is 20
+- Example: Firing particle cannon (8 heat) and moving 25-29G (5 heat) with destroyed heat management in one turn (13 heat total) causes explosion
 
 #### 2. Movement Phase
 - Player with high initiative moves one ship first, then the player with low initiative moves
@@ -83,7 +80,7 @@ Player each roll a D20 to determine which player is high initiative for the dura
 | 5-9G 	  | 2 heat   	     |
 | 10-18G  | 3 heat   	     |
 | 19-24G  | 4 heat   	     |
-| 25-27G  | 5 heat   	     |
+| 25-29G  | 5 heat   	     |
 
 **G-Force Hit Receiving Modifications (add these to what the attacker actually rolled)**:
 
@@ -93,7 +90,7 @@ Player each roll a D20 to determine which player is high initiative for the dura
 | 5-9G 	  | + 1         	     |
 | 10-18G  | + 0         	     |
 | 19-24G  | - 1         	     |
-| 25-27G  | - 2         	     |
+| 25-29G  | - 2         	     |
 
 **G-Force Movement Rules**:
 - Base movement: 1" per G

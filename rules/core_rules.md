@@ -1,3 +1,12 @@
+1. Remove armour
+2. Increase line bonus to +3 per ship
+3. Increase dispersed opposite to +6
+4. Movement - restricted to 90 degrees left or right of last round movement 
+5. Alternatively, move the target number down
+6. Heat cap for destroyed heat management - 20
+
+Results from first playtest - balance are 70%
+
 ### Components Needed To Play
 - D20 dice (at least 2 per player)
 - D6 dice (at least 2 per player)

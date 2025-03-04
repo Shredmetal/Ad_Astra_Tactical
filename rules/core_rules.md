@@ -233,6 +233,8 @@ If destroyed:
 
 #### Formation Types
 
+**Acceleration rates are irrelevant to formations as long as the ships in the right place with the right direction of movement (where the formation requires)**
+
 **1. Defensive Sphere**
 - Requirement: All ships within 9" of centre
 - Benefit: Share PD Coverage, if ship has lost PD, being in sphere with at least one ship having PD extends missile invulnerability to other ship

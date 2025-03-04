@@ -1,13 +1,3 @@
-1. Remove armour
-2. Increase line bonus to +3 per ship
-3. Increase dispersed opposite to +6
-4. Movement - restricted to 90 degrees left or right of last round movement 
-5. Alternatively, move the target number down switch D10 - maybe
-6. Heat cap for destroyed heat management - 20
-7. Hull kill - 3 hits on dead components
-
-Results from first playtest - balance are 70%
-
 ### Components Needed To Play
 - D6 dice (at least 2 per player)
 - D10 dice (at least 1 per player)
@@ -28,7 +18,7 @@ Results from first playtest - balance are 70%
 
 ### Ship Systems
 Each ship tracks six critical components:
-- Engine (Destruction = Ship Lost)
+- Engine (Destruction = Ship Lost) (This has one point of armour as the most important system)
 - Magnetic Field (Damage = 9G limit)
 - Fire Control (Damage = Hit penalties)
 - Heat Management (Damage = No heat storage)
@@ -49,16 +39,14 @@ Player each roll a D10 to determine which player is high initiative for the dura
   - Radiate heat (visible to thermals, if also visible to visual, attack rolls get a +1 bonus against you) - radiates 10 heat per turn
 
 **Critical Heat Threshold**: 30
-- Going over causes 1/3 damage to the heat management system
-- 3 crits to destruction
-- Crits can only be caused by overheating
-- Remain in this state for 3 turns and your heat management system explodes, exceeding 30 just causes damage but allows continued heat accumulation
+- Going over causes one internal damage point to the heat management system
+- 3 internal damage points
+- Remain in this state for 3 turns and your heat management system explodes, exceeding 30 just causes and internal damage point  but allows continued heat accumulation
 
 **Destroyed Heat Management System Effects**:
 - Must continuously radiate
-- Death caused if heat generated cannot be radiated or stored
 - Maximum storage with destroyed system is 20
-- Example: Firing particle cannon (8 heat) and moving 25-29G (5 heat) with destroyed heat management in one turn (13 heat total) causes explosion
+- If a ship exceeds 20 heat with a destroyed heat management system at the damage resolution phase (phase 5), that ship is destroyed 
 
 #### 2. Movement Phase
 - Player with high initiative moves one ship first, then the player with low initiative moves
@@ -130,7 +118,7 @@ Each ship can use one weapon system per turn:
 - Always guaranteed hit
 - Roll d6 for hit location for first shot
 - Mark component on ship card as currently being burned by a laser
-- Subsequent laser shots from the same attacking ship or another attacking ship require a 3+ roll from a 1d10 and it will crit on the same component, if this second roll fails, remove the mark on card indicating it is being burned, and the attacker will roll a d6 again to determine where the laser hit, and mark that component as being burned
+- Subsequent laser shots from the same attacking ship or another attacking ship require a 3+ roll from a 1d10 and it will do one point of damage that same component, if this second roll fails, remove the mark on card indicating it is being burned, and the attacker will roll a d6 again to determine where the laser hit, and mark that component as being burned
 - Requires 2 consecutive hits on same location to kill a component
 - Defender can choose to evade:
   - Declare before hit location roll but AFTER attacker declares laser firing
@@ -144,7 +132,7 @@ Each ship can use one weapon system per turn:
   - Long Range: roll at least 9+ using 2d20, then roll d6 for hit location
   - Mid Range: roll at least 6+ using 2d20, then roll d6 for hit location
   - Close Range: Guaranteed hit, roll d6 for hit location
-- Hit kills that component
+- Hit does one point of damage to that that component
 - No defence possible
 
 **Missile System**:
@@ -152,7 +140,7 @@ Each ship can use one weapon system per turn:
 - Can only target ships with destroyed PD
 - 66.6% chance to hit (roll 3+ on d6)
 - Max range of 30" because your missile needs to constantly burn reaction mass to manoeuvre in space
-- Scores a crit on hit (roll d6 for component)
+- Scores a point of damage on hit (roll d6 for component)
 - Unable to use if missile bays destroyed
 - Can fire 2 missiles at once, but remember, ships with active PD are completely invulnerable to missiles
 
@@ -167,14 +155,14 @@ Each ship can use one weapon system per turn:
 #### Component Damage Effects
 
 #### Hit Location Table
-| D6 Roll | Component Hit   |
-|---------|-----------------|
-| 1       | Engine          |
-| 2       | Magnetic Field  |
-| 3       | Fire Control    |
-| 4       | Heat Management |
-| 5       | Missile Bays    |
-| 6       | Point Defense   |
+| D6 Roll | Component Hit   | Damage points required for destruction |
+|---------|-----------------|----------------------------------------|
+| 1       | Engine          | 2                                      |
+| 2       | Magnetic Field  | 1                                      |
+| 3       | Fire Control    | 1                                      |
+| 4       | Heat Management | 1                                      |
+| 5       | Missile Bays    | 1                                      |
+| 6       | Point Defense   | 1                                      |
 
 **Engine**:
 - If destroyed: Ship is lost
@@ -216,7 +204,7 @@ If destroyed:
 - Must continuously radiate
 
 If heat > 30:
-- Add one crit to that ship's heat management system
+- Add one internal damage point to that ship's heat management system
 
 **Missile Bays**:
 If destroyed:
@@ -328,14 +316,14 @@ question their own sanity and miss  completely. Limited to once per battle becau
 
 **Hit Location Table**
 
-| D6 Roll | Component Hit   |
-|---------|-----------------|
-| 1       | Engine          |
-| 2       | Magnetic Field  |
-| 3       | Fire Control    |
-| 4       | Heat Management |
-| 5       | Missile Bays    |
-| 6       | Point Defense   |
+| D6 Roll | Component Hit   | Damage points required for destruction |
+|---------|-----------------|----------------------------------------|
+| 1       | Engine          | 2                                      |
+| 2       | Magnetic Field  | 1                                      |
+| 3       | Fire Control    | 1                                      |
+| 4       | Heat Management | 1                                      |
+| 5       | Missile Bays    | 1                                      |
+| 6       | Point Defense   | 1                                      |
 
 **GLOC Table**:
 

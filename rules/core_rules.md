@@ -129,8 +129,8 @@ Each ship can use one weapon system per turn:
 **Particle Cannon**:
 - Costs 8 heat
 - Range requirements:
-  - Long Range: roll at least 9+ using 2d20, then roll d6 for hit location
-  - Mid Range: roll at least 6+ using 2d20, then roll d6 for hit location
+  - Long Range: roll at least 9+ using 1d10, then roll d6 for hit location
+  - Mid Range: roll at least 6+ using 1d10, then roll d6 for hit location
   - Close Range: Guaranteed hit, roll d6 for hit location
 - Hit does one point of damage to that that component
 - No defence possible
@@ -138,7 +138,7 @@ Each ship can use one weapon system per turn:
 **Missile System**:
 - Each ship starts with 4 missiles
 - Can only target ships with destroyed PD
-- 66.6% chance to hit (roll 3+ on d6)
+- 66.6% chance to hit (roll 3+ on 1d6)
 - Max range of 30" because your missile needs to constantly burn reaction mass to manoeuvre in space
 - Scores a point of damage on hit (roll d6 for component)
 - Unable to use if missile bays destroyed

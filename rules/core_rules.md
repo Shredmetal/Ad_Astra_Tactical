@@ -163,6 +163,11 @@ Each ship can use one weapon system per turn:
 | 4       | Heat Management | 1                                      |
 | 5       | Missile Bays    | 1                                      |
 | 6       | Point Defense   | 1                                      |
+| N/A     | Hull            | 3                                      |
+
+**If Hit On Destroyed Component**:
+- The hull takes one point of damage
+- 3 points of damage to the hull destroys the ship
 
 **Engine**:
 - If destroyed: Ship is lost

@@ -9,7 +9,6 @@
 Results from first playtest - balance are 70%
 
 ### Components Needed To Play
-- D20 dice (at least 2 per player)
 - D6 dice (at least 2 per player)
 - D10 dice (at least 1 per player)
 - Ship miniatures (Anything roughly ship-shaped and about 2 inches in length including sausages, if you send a photograph of a particularly funny miniature stand-in, I will put it the repository)
@@ -41,7 +40,7 @@ Each game turn consists of five phases, executed in order:
 
 #### 1. Heat Management Phase
 
-Player each roll a D20 to determine which player is high initiative for the duration of the turn.
+Player each roll a D10 to determine which player is high initiative for the duration of the turn.
 
 **Heat Management System**
 - Add heat from previous turn's actions
@@ -68,9 +67,16 @@ Player each roll a D20 to determine which player is high initiative for the dura
 **Movement Capabilities**:
 - Frigates: Up to 29G with functioning magnetic system (other classes to be added in the future)
 - 2D Movement - 3D is a bit hard on a tabletop
-- Declare G-forces before moving
-- You can point and burn up to a maximum of 90 degrees left and right of the last move direction
-- You can point in any direction after moving
+- In order to avoid players having to calculate vector dot products, movement has been heavily abstracted
+- These frigates are small, fast ships with fighter levels of mobility
+- From stationary, you can burn in any direction up to 29G
+- Each G represents 1" of movement
+- To represent that the ship is already in motion, a burn in the same direction as previous motion up to 45 degrees off the line of previous motion has a -2 to the heat cost of the movement (this is not how adding an acceleration vector to an existing velocity vector works but it is abstracted for gameplay purposes)
+- Applying the same logic, a burn in a direction between 46 - 90 degrees off the line of previous motion has a -1 to the heat cost of the movement.
+- To turn more than 90 degrees (i.e. in the opposite direction), subtract distance moved in the preceding turn from the maximum movement ability, and that is that ship's maximum movement beyond 90 degrees for that turn, and also represents a minimum heat cost. 
+- For example, if a ship makes a 29G burn in the previous turn, it cannot move in a direction more than 90 degrees off its current path, and to stay in place will cost a 29G burn
+- Players are not allowed to not burn at all due to the abstraction to prevent players having to do vector mathematics
+- You can point in any direction after moving, but this is irrelevant since formation bonuses depend on direction of motion and the guns are on turrets
 
 **Heat Generation Table**:
 
@@ -82,15 +88,15 @@ Player each roll a D20 to determine which player is high initiative for the dura
 | 19-24G  | 4 heat   	     |
 | 25-29G  | 5 heat   	     |
 
-**G-Force Hit Receiving Modifications (add these to what the attacker actually rolled)**:
+**G-Force Hit Receiving Modifications**:
 
-| G-Force | Roll Modification |
-|---------|-------------------|
-| 1-4G 	  | + 2         	     |
-| 5-9G 	  | + 1         	     |
-| 10-18G  | + 0         	     |
-| 19-24G  | - 1         	     |
-| 25-29G  | - 2         	     |
+| G-Force | Roll Difficulty Modification |
+|---------|------------------------------|
+| 1-4G 	  | - 2         	                |
+| 5-9G 	  | - 1         	                |
+| 10-18G  | + 0         	                |
+| 19-24G  | + 1         	                |
+| 25-29G  | + 2         	                |
 
 **G-Force Movement Rules**:
 - Base movement: 1" per G
@@ -107,15 +113,15 @@ Check each ship's visibility:
 - Visual range ~30 miles (30" on table)
 - Heat signatures reveal position
 - Detected ships can be targeted but only by the ship that can detect it
-- Targeting information cannot be shared unless using squadron tactics
+- Targeting information cannot be shared unless using the screening tactic
 - Ships radiating and in visual range give attackers +1 roll bonus to hit
 
 #### 4. Combat Phase
 
 1. High initiative player selects ship to fire
-2. Resolve weapon effects and damage immediately
-3. Low initiative player selects ship to fire
-4. Continue alternating until all ships have fired or passed
+2. Low initiative player selects ship to fire
+3. Continue alternating until all ships have fired or passed
+4. Do not resolve damage until the next phase - this means that if a ship is killed or takes damage in this phase, the change in status will only take effect in the damage resolution phase.
 
 Each ship can use one weapon system per turn:
 
@@ -124,19 +130,19 @@ Each ship can use one weapon system per turn:
 - Always guaranteed hit
 - Roll d6 for hit location for first shot
 - Mark component on ship card as currently being burned by a laser
-- Subsequent laser shots from the same attacking ship or another attacking ship require a 7+ roll from a 1d10 and it will one crit on the same component, if this second roll fails, remove the mark on card indicating it is being burned, and the attacker will roll a d6 again to determine where the laser hit, and mark that component as being burned
+- Subsequent laser shots from the same attacking ship or another attacking ship require a 3+ roll from a 1d10 and it will crit on the same component, if this second roll fails, remove the mark on card indicating it is being burned, and the attacker will roll a d6 again to determine where the laser hit, and mark that component as being burned
 - Requires 2 consecutive hits on same location to kill a component
 - Defender can choose to evade:
   - Declare before hit location roll but AFTER attacker declares laser firing
   - Loses their next shooting action
   - Negates the hit entirely
-  - Evasion is a 1-9G burn in any direction, with the attendant low-G movement penalties and movement heat buildup
+  - Evasion is a 1-9G burn in any direction, with the attendant low-G movement penalties and movement heat buildup (unlike regular movement, this is to be treated as a move from stationary)
 
 **Particle Cannon**:
 - Costs 8 heat
 - Range requirements:
-  - Long Range: roll at least 39 using 2d20, then roll d6 for hit location
-  - Mid Range: roll at least 34 using 2d20, then roll d6 for hit location
+  - Long Range: roll at least 9+ using 2d20, then roll d6 for hit location
+  - Mid Range: roll at least 6+ using 2d20, then roll d6 for hit location
   - Close Range: Guaranteed hit, roll d6 for hit location
 - Hit kills that component
 - No defence possible
@@ -187,22 +193,22 @@ Each ship can use one weapon system per turn:
 
 | G-Force | Required Roll |
 |---------|---------------|
-| 10-15G  | 15+ on d20    |
-| 16-20G  | 17+ on d20    |
-| 21-24G  | 19+ on d20    |
-| 25-27G  | Natural 20    |
+| 10-15G  | 7+ on d10     |
+| 16-20G  | 8+ on d10     |
+| 21-24G  | 9+ on d10     |
+| 25-27G  | 10 on d10     |
 
 *GLOC Effects*:
 - No actions for turn (no movement, cannot react)
-- +3 hit receiving rolls
+- -3 hit difficulty
 - If success, standard hit receive chance penalty does not apply for one turn
 - For burns > 15G, if the player fails the GLOC roll, the player must roll at least 4+ on 1d6. If the player fails this roll, the crew of that ship dies.
 
 **Fire Control**:
 If destroyed:
 - Lasers must now roll 2+ on a d6 to hit
-- -2 to particle cannon rolls
-- -2 to missile hit rolls
+- +1 to particle cannon roll difficulty
+- +1 to missile hit roll difficulty
 
 **Heat Management**:
 If destroyed:
@@ -240,18 +246,18 @@ If destroyed:
 - Drawback: Does not provide any offensive bonuses
 
 **2. Attack Line**
-- Requirement: Ships in linear formation 6" apart
-- Benefit: Combined targeting data (+2 per additional ship in line other than firing ship to particle cannon hit rolls)
-- Drawback: Enemies receive +2 to particle cannon hit rolls when flanking (any attack from >45° off the line's axis) the line
+- Requirement: Ships in linear formation 6" apart. In the preceding movement phase, all ships' movement must be within 30 degrees of parallel motion
+- Benefit: Combined targeting data (-1 to roll difficulty per additional ship in line other than firing ship to particle cannon hit rolls)
+- Drawback: Enemies receive -1 to particle cannon hit roll difficulty when flanking (any attack from >45° off the line's axis) the line
 
 **3. Screening**
-- Requirement: Two ships forward of ship or ships being screened, max 9" apart
-- Benefit: Forward ships can mask heat signatures of rear ships (i.e. rear ships can radiate without being detected thermally) and share targeting data with rear ships, rear ships firing on same ship as a screening ship receives a +2 to bonus to particle cannon hit rolls.
+- Requirement: Two ships forward of ship or ships being screened, max 9" apart. In the preceding movement phase, all ships' movement must be within 30 degrees of parallel motion
+- Benefit: Forward ships can mask heat signatures of rear ships (i.e. rear ships can radiate without being detected thermally) and share targeting data with rear ships, rear ships firing on same ship as a screening ship receives a 1- to particle cannon hit roll difficulty.
 - Drawback: Forward ships are particularly vulnerable to offensive focused formations
 
 **4. Dispersed**
 - Requirement: No ships within 9" of each other
-- Benefit: If two ships attack a single target from opposing directions, both ships get a +4 to particle cannon hit rolls
+- Benefit: If two ships attack a single target from opposing directions (if you draw an imaginary line between the target ship, both attacking ships must be within 30 degrees of the line, and both must attack the target ship in that turn), both ships get a -1 to particle cannon hit roll difficulty
 - Drawback: No mutual support
 
 ### Captains
@@ -298,3 +304,53 @@ question their own sanity and miss  completely. Limited to once per battle becau
 - Destroy all enemy ships
 - [Further development possible here]
 
+### Tables for quick reference
+
+**Heat Generation Table**:
+
+| G-Force | Heat Generated |
+|---------|----------------|
+| 1-4G 	  | 1 heat   	     |
+| 5-9G 	  | 2 heat   	     |
+| 10-18G  | 3 heat   	     |
+| 19-24G  | 4 heat   	     |
+| 25-29G  | 5 heat   	     |
+
+**G-Force Hit Receiving Modifications**:
+
+| G-Force | Roll Difficulty Modification |
+|---------|------------------------------|
+| 1-4G 	  | - 2         	                |
+| 5-9G 	  | - 1         	                |
+| 10-18G  | + 0         	                |
+| 19-24G  | + 1         	                |
+| 25-29G  | + 2         	                |
+
+**Hit Location Table**
+
+| D6 Roll | Component Hit   |
+|---------|-----------------|
+| 1       | Engine          |
+| 2       | Magnetic Field  |
+| 3       | Fire Control    |
+| 4       | Heat Management |
+| 5       | Missile Bays    |
+| 6       | Point Defense   |
+
+**GLOC Table**:
+
+| G-Force | Required Roll |
+|---------|---------------|
+| 10-15G  | 7+ on d10     |
+| 16-20G  | 8+ on d10     |
+| 21-24G  | 9+ on d10     |
+| 25-27G  | 10 on d10     |
+
+**Weapon base roll table**
+
+| Weapon          | Base Roll                        | 
+|-----------------|----------------------------------|
+| Laser           | 3+ on d10 (subsequent shot)      |
+| Particle Cannon | 9+ on d10 (Long range)           |
+| Particle Cannon | 6+ on d10 (Medium range)         |
+| Missile         | 3+ on d10 (Can fire two at once) |

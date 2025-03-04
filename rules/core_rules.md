@@ -239,7 +239,7 @@ If destroyed:
 - Drawback: Does not provide any offensive bonuses
 
 **2. Attack Line**
-- Requirement: Ships in linear formation 6" apart. In the preceding movement phase, all ships' movement must be within 30 degrees of parallel motion
+- Requirement: Ships in linear formation 4" - 8" apart. In the preceding movement phase, all ships' movement must be within 30 degrees of parallel motion
 - Benefit: Combined targeting data (-1 to roll difficulty per additional ship in line other than firing ship to particle cannon hit rolls)
 - Drawback: Enemies receive -1 to particle cannon hit roll difficulty when flanking (any attack from >45° off the line's axis) the line
 
